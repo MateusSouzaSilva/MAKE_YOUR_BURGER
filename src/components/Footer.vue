@@ -1,0 +1,27 @@
+<template>
+    <footer id="footer">
+        <p id="msgFooter">Make Your Burguer &copy; 2021</p>    
+    </footer>    
+</template>
+<script>
+export default {
+    name: "Footer"
+}
+</script>
+<style scoped>
+    #footer {
+        height: 200px;
+        background-color: #222;
+        border-top: 0px solid #111;
+        color: #FCBA03;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 0;
+        width: 100%;
+    }
+    #footer #msgFooter {
+        font-size: 150%;
+    }
+
+</style>
