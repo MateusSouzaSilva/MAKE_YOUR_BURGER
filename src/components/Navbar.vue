@@ -34,7 +34,7 @@ export default {
         color: #FCBA03;
         text-decoration: none;
         margin: 12px;
-        transition: 0.5px;
+        transition: 0.5s;
     }
     #nav a:hover {
         color: #FFF;

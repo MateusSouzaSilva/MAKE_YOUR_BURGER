@@ -12,16 +12,13 @@ export default {
     #footer {
         height: 200px;
         background-color: #222;
-        border-top: 0px solid #111;
+        border-top: 4px solid #111;
         color: #FCBA03;
         display: flex;
         align-items: center;
         justify-content: center;
         bottom: 0;
         width: 100%;
-    }
-    #footer #msgFooter {
-        font-size: 150%;
     }
 
 </style>
